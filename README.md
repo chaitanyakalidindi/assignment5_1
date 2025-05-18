@@ -5,10 +5,9 @@ The objective of this project is to analyze the impact of various factors on the
 
 # Data Cleaning
 To address missing values in the dataset, we replaced them with placeholder values. Next, we examined the correlation matrix to assess the relationships between numeric fields. The matrix indicated a perfect negative correlation of -1 between direction_same and direction_opp, suggesting that they convey opposite values for the same attribute. Consequently, we removed the direction_opp column.
-![image](https://github.com/user-attachments/assets/317ee119-2f96-42b7-97b8-e6fe64f70604)
-
 
 We also identified that the toCoupon_GEQ field represents distance thresholds. For better analytical clarity, we consolidated toCoupon_GEQ5min, toCoupon_GEQ15min, and toCoupon_GEQ25min into three distinct categories: '5-15 min', '15-25 min', and '25+ min' in the same column. The Car column had a substantial amount of missing data, leading to its removal to maintain data integrity.
+![image](https://github.com/user-attachments/assets/317ee119-2f96-42b7-97b8-e6fe64f70604)
 
 # Data Analysis
 The overall coupon acceptance rate in the dataset is 57%. However, the acceptance rates vary across different coupon types are:
@@ -24,6 +23,9 @@ Restaurant (20-50): 44.15%
 Restaurant (<20): 70.78%
 
 It is important to note that the dataset does not have an equal distribution of samples for each coupon type. The chart below illustrates the sample distribution across the coupon categories.
+
+![image](https://github.com/user-attachments/assets/a7060494-c0cc-4ff0-8134-4b07f3452848)
+
 
 # Recommendation:
 To establish an effective recommendation strategy, the objective is to ensure that the acceptance rate based on our recommendations exceeds the average acceptance rate for each specific coupon type.
