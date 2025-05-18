@@ -1,5 +1,6 @@
 # Assignment 5.1: Customer Coupon Acceptance
 ---
+Jupitar noteboke: https://colab.research.google.com/drive/13j1FVDoPNfZ37e9pc9SmTktkXQpYN6P_#scrollTo=uQ4QtddLfpsi
 # Problem Statement
 The objective of this project is to analyze the impact of various factors on the acceptance rate of driving coupons. The dataset includes multiple coupon types, such as Bar, Restaurant (< $20), Coffee House, Restaurant ($20-$50), and Carry Out. The goal is to leverage visualizations and probability distributions to effectively differentiate between customers who accepted a coupon and those who did not across these categories.
 
@@ -49,7 +50,7 @@ The overall acceptance rate for the Coffee House coupon is 49.86%. The strategy 
 
 
 
-# Carry Out
+# Carry Out And Takeaway
 The overall acceptance rate for the Carry Out & Take Away coupon is 73.38%. To effectively increase acceptance rates, the strategy should focus on targeting older age groups (50+), as they exhibit higher acceptance rates. Promotions should be concentrated between 2 PM and 6 PM and those heading home, aligning with lunch and dinner hours when carry-out orders are more likely. Protective Service, Construction & Extraction, Healthcare Practitioners, Building & Grounds Cleaning, and Food Preparation occupations yield higher acceptance rates. Emphasizing group outings with friends and focusing on customers heading home can further optimize acceptance rates. The Carry Out coupon appears to have a higher acceptance rate compared to other coupons, making it a strong recommendation choice for most situations.
 ![image](https://github.com/user-attachments/assets/28f75710-3577-42a7-93ee-c4a253c91d94)
 
@@ -62,10 +63,11 @@ The acceptance rate for the Bar coupon stands at 40.99%, but there are clear opp
 # Coupon Acceptance based on Occupation
 ![image](https://github.com/user-attachments/assets/b32368ed-f624-4d22-8ab9-07ebf17918e5)
 
+# Next steps 
+Further analysis can be conducted to explore the interplay between different attributes, such as weather conditions and temperature, to better understand how these factors may influence coupon acceptance rates. For instance, examining whether coupon usage increases during colder or warmer temperatures or during specific weather conditions (e.g., rainy, sunny, or cloudy days) can provide valuable insights. Visualizing these trends through scatter plots, heatmaps, or time series graphs can help identify patterns and correlations between temperature fluctuations, weather types, and coupon acceptance. Additionally, segmenting the data based on demographic attributes like age, occupation, or travel companions can further reveal how these interactions vary across different customer profiles, enabling more targeted and effective promotional strategies.
 
-
-
-
+# Recommendations
+The analysis of coupon acceptance across various categories—Restaurant (<20), Restaurant (20-50), Coffee House, Carry Out, and Bar—highlights several actionable insights for targeted marketing strategies. Group outings, particularly with friends or partners, consistently show higher acceptance rates across most coupon types. Timing is another critical factor, with optimal redemption periods aligning with meal times or social hours, making it essential to tailor promotions accordingly. Distance significantly impacts acceptance rates, as longer travel times generally decrease coupon usage. Therefore, recommending coupons for nearby locations or frequently visited coupon types can boost redemption. A common trend across all coupon types is that 1-day expiry coupons perform substantially better than those with 2-hour expirations. Additionally, weather conditions also play a role, with warm and sunny days driving higher coupon acceptance, particularly for dining-related offers. By strategically aligning promotions with these patterns, businesses can effectively increase coupon utilization.
 
 
 
