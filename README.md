@@ -7,7 +7,7 @@ The objective of this project is to analyze the impact of various factors on the
 # Data Cleaning
 To address missing values in the dataset, we replaced them with placeholder values. Next, we examined the correlation matrix to assess the relationships between numeric fields. The matrix indicated a perfect negative correlation of -1 between direction_same and direction_opp, suggesting that they convey opposite values for the same attribute. Consequently, we removed the direction_opp column.
 
-We also identified that the toCoupon_GEQ field represents distance thresholds. For better analytical clarity, we consolidated toCoupon_GEQ5min, toCoupon_GEQ15min, and toCoupon_GEQ25min into three distinct categories: '5-15 min', '15-25 min', and '25+ min' in the same column. The Car column had a substantial amount of missing data, leading to its removal to maintain data integrity.
+We also identified that the toCoupon_GEQ field represents "distance greater than or equal" to. For better analytical clarity, we consolidated toCoupon_GEQ5min, toCoupon_GEQ15min, and toCoupon_GEQ25min into three distinct categories: '5-15 min', '15-25 min', and '25+ min' in the same column. Removed Car column as it has a substantial amount of missing data.
 ![image](https://github.com/user-attachments/assets/317ee119-2f96-42b7-97b8-e6fe64f70604)
 
 # Data Analysis
